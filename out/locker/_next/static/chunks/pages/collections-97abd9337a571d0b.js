@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[8583],{35600:(_,e,n)=>{"use strict";n.r(e),n.d(e,{default:()=>s.I});var s=n(73951)},56149:(_,e,n)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/collections",function(){return n(35600)}])}},_=>{_.O(0,[1425,4888,4825,9498,5372,1448,2288,9225,3449,3951,636,6593,8792],()=>_(_.s=56149)),_N_E=_.O()}]);

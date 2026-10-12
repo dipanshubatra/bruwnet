@@ -1,0 +1,12 @@
+services:
+  brunet-frontend:
+    build: .
+    image: brunet-frontend:latest
+    container_name: brunet-frontend
+    ports:
+      - "3000:3000" # Brunet Photos
+      - "3001:3001" # Brunet Accounts
+      - "3002:3002" # Brunet Public Albums
+      - "3003:3003" # Brunet Auth
+      - "3009:3009" # Brunet Locker
+    restart: unless-stopped

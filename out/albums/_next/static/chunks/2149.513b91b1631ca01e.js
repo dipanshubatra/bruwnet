@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[2149],{52149:(e,a,t)=>{t.r(a),t.d(a,{extractCollectionKeyFromShareURL:()=>r});var c=t(36857),l=t(76085);let r=async e=>{let a=e.hash.slice(1);return a.length<50?await (0,l.ox)(c.A.decode(a)):await (0,l.aD)(a)}}}]);
