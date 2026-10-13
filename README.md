@@ -1,18 +1,22 @@
 <div align="center">
 
-# 🔒 ENTE
-### End-to-End Encrypted Cloud Storage & Photo Memories
+<img src="./assets/ente-logo.svg" width="120" height="120" alt="Ente Logo" />
 
-[![Vercel Deployment](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com)
+# 🛡️ ENTE
+### **The Next-Generation End-to-End Encrypted Cloud Storage & Photos Ecosystem**
+
+[![Vercel Deployment](https://img.shields.io/badge/Deploy%20on-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
 [![Docker Support](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![End-to-End Encrypted](https://img.shields.io/badge/Security-E2EE%20Zero--Knowledge-success?style=for-the-badge&logo=shield)](https://ente.io)
-[![License](https://img.shields.io/badge/License-AGPLv3-orange?style=for-the-badge)](LICENSE)
+[![E2EE Architecture](https://img.shields.io/badge/Security-E2EE%20Zero--Knowledge-10B981?style=for-the-badge&logo=shield&logoColor=white)](https://ente.io)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-F59E0B?style=for-the-badge&logo=open-source-initiative&logoColor=white)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/dipanshubatra/ente?style=for-the-badge&color=8B5CF6)](https://github.com/dipanshubatra/ente/stargazers)
 
 <br/>
 
 <p align="center">
-  <b>A private, secure, and encrypted alternative to Google Photos & Apple iCloud.</b><br/>
-  Zero-knowledge architecture ensuring that only you hold the keys to your memories and files.
+  <b>Ente is a private, secure, zero-knowledge sanctuary for all your photos, files, and precious memories.</b><br/>
+  <i>Engineered as an uncompromising, privacy-first alternative to Google Photos and Apple iCloud.</i><br/>
+  Only <u>YOU</u> hold the keys to your data.
 </p>
 
 ---
@@ -21,14 +25,30 @@
 
 <br/>
 
-## 👑 Leadership & Executive Team
+## 🏛️ Executive Leadership & Engineering Board
 
 <div align="center">
 
-| <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Akshit" width="110" height="110" style="border-radius:50%"/> <br/> **Akshit Rai Kakkar** | <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Dipanshu" width="110" height="110" style="border-radius:50%"/> <br/> **Dipanshu Batra** |
-| :---: | :---: |
-| 👔 **Chief Executive Officer (CEO)** | 💻 **Chief Technology Officer (CTO)** |
-| *Vision, Product Strategy & Strategic Leadership* | *Engineering Architecture, Cryptography & Systems* |
+<table>
+  <tr>
+    <td align="center" width="300">
+      <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Akshit&backgroundColor=6366f1" width="120" height="120" style="border-radius: 50%; box-shadow: 0 4px 14px rgba(0,0,0,0.25);" />
+      <br/><br/>
+      <h3 style="margin-bottom: 2px;">Akshit Rai Kakkar</h3>
+      <code>👔 Chief Executive Officer (CEO)</code>
+      <br/><br/>
+      <p><i>Vision, Product Architecture, Corporate Strategy & Global Growth Operations</i></p>
+    </td>
+    <td align="center" width="300">
+      <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Dipanshu&backgroundColor=10b981" width="120" height="120" style="border-radius: 50%; box-shadow: 0 4px 14px rgba(0,0,0,0.25);" />
+      <br/><br/>
+      <h3 style="margin-bottom: 2px;">Dipanshu Batra</h3>
+      <code>💻 Chief Technology Officer (CTO)</code>
+      <br/><br/>
+      <p><i>Cryptographic Infrastructure, System Architecture, Web Performance & Core Engineering</i></p>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -36,60 +56,73 @@
 
 ---
 
-## ✨ Key Features & Architecture
+## 💎 Why Ente? Key Highlights
 
-- 🛡️ **Zero-Knowledge Encryption**: End-to-end encryption with client-side cryptography. Your photos, metadata, and files are encrypted before leaving your browser.
-- ⚡ **Instant Static Delivery**: Pre-compiled production bundles optimized for lightning-fast loads on global CDNs.
-- 🖼️ **High-Performance Gallery**: Multi-threaded indexing, seamless album categorization, and real-time client decryption.
-- 🌐 **Global Cloud Sync**: Seamlessly synchronized with real enterprise storage backend (`https://api.ente.io`).
-- 📱 **Cross-Platform Ready**: Fully responsive web experience compatible across modern desktop and mobile browsers.
+```
+   ┌─────────────────────────────────────────────────────────────┐
+   │                    Zero-Knowledge Shield                    │
+   │  Your data is encrypted on your device before transmission  │
+   └──────────────────────────────┬──────────────────────────────┘
+                                  │
+         ┌────────────────────────┴────────────────────────┐
+         ▼                                                 ▼
+┌─────────────────────────┐                     ┌─────────────────────────┐
+│     Client Decryption   │                     │     Hardened Security   │
+│  Instant in-browser     │                     │  Zero trackers, no ads, │
+│  cryptographic engine   │                     │  strict zero-knowledge  │
+└─────────────────────────┘                     └─────────────────────────┘
+```
 
-<br/>
-
----
-
-## 🚀 One-Click Deployment on Vercel
-
-This repository is optimized for instantaneous deployment on **Vercel** without any compilation steps required.
-
-### 📋 Steps to Deploy:
-1. Fork or import this repository on **[Vercel](https://vercel.com)** (`dipanshubatra/ente`).
-2. Keep the Framework Preset as **`Other`** (Static).
-3. Root Directory: **`./`** (leave default).
-4. Hit **Deploy**.
-5. Your private Ente cloud interface is instantly live!
-
-> [!TIP]
-> Pre-configured routing and redirects are automatically handled by [`vercel.json`](./vercel.json).
+- 🔐 **Zero-Knowledge Privacy** — Advanced client-side XChaCha20-Poly1305 / Argon2id encryption. Not even the servers can view your files.
+- ⚡ **Global CDN Ready** — Pre-optimized, zero-latency static assets ready for edge deployment.
+- 🗂️ **Dynamic Galleries & Smart Albums** — Group, tag, and explore your photo timeline seamlessly.
+- 🔗 **Direct Live Sync** — Interoperates directly with verified Ente API infrastructure (`https://api.ente.io`).
+- 📱 **Responsive & Intuitive** — Built with clean, accessible design principles for desktop, tablets, and mobiles.
 
 <br/>
 
 ---
 
-## 🐳 Local & VPS Deployment (Docker)
+## ⚡ Deployment Options
 
-Deploy the entire suite locally or on your own VPS with Docker Compose:
+### Option 1: Deploy to Vercel (Instant 1-Click)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdipanshubatra%2Fente)
+
+1. Open **[Vercel Dashboard](https://vercel.com/new)** and connect your GitHub repository `dipanshubatra/ente`.
+2. Configure Settings:
+   - **Framework Preset**: `Other` (Static)
+   - **Root Directory**: `./` (Default root)
+   - **Build Command**: *Disabled / None* (Pre-built production bundles)
+   - **Output Directory**: `out/photos` (handled automatically by [`vercel.json`](./vercel.json))
+3. Click **Deploy**. Your secure cloud photo gallery goes live in seconds!
+
+<br/>
+
+### Option 2: Run with Docker Compose (Local & VPS)
+
+Spin up the entire suite in one command with isolated multi-service containers:
 
 ```bash
-# Clone the repository
+# 1. Clone the repository
 git clone https://github.com/dipanshubatra/ente.git
 cd ente
 
-# Build and start services
+# 2. Build and launch services in background
 docker compose up -d --build
 ```
 
-### Available Endpoints:
-| Application | Service URL | Purpose |
+#### 🌐 Service Directory:
+| Service | Local Address | Description |
 | :--- | :--- | :--- |
-| 📸 **Ente Photos** | [`http://localhost:3000`](http://localhost:3000) | Main Encrypted Photo Gallery & Timeline |
-| 👤 **Ente Accounts** | [`http://localhost:3001`](http://localhost:3001) | Profile & Subscription Management |
-| 📁 **Ente Albums** | [`http://localhost:3002`](http://localhost:3002) | Shared & Private Album Management |
-| 🔑 **Ente Auth** | [`http://localhost:3003`](http://localhost:3003) | Authentication & Passkey Services |
-| 🗄️ **Ente Locker** | [`http://localhost:3009`](http://localhost:3009) | Encrypted File Locker & Vault |
+| 📸 **Ente Photos** | [`http://localhost:3000`](http://localhost:3000) | Primary Gallery, Timeline & Media Player |
+| 👤 **Ente Accounts** | [`http://localhost:3001`](http://localhost:3001) | Identity, Security Keys & Plan Controls |
+| 📁 **Ente Albums** | [`http://localhost:3002`](http://localhost:3002) | Shared Collections & Collaborative Albums |
+| 🔑 **Ente Auth** | [`http://localhost:3003`](http://localhost:3003) | Multi-Factor Authentication & Verification |
+| 🗄️ **Ente Locker** | [`http://localhost:3009`](http://localhost:3009) | Encrypted File Locker & Digital Vault |
 
 ```bash
-# To stop containers
+# To stop all services cleanly:
 docker compose down
 ```
 
@@ -97,22 +130,24 @@ docker compose down
 
 ---
 
-## 📁 Repository Structure
+## 📂 Project Architecture
 
-```tree
-.
-├── 🐳 Dockerfile          # Production high-performance Nginx container
-├── 📦 compose.yaml        # Docker Compose multi-service definition
-├── ⚙️ nginx.conf          # Custom multi-port reverse proxy & routing
-├── ▲ vercel.json         # Vercel CDN deployment specification
-├── 🌐 netlify.toml        # Netlify static configuration
+```asciidoc
+ente/
+├── 📁 assets/             # Brand logos, icons & graphic elements
+│   └── ente-logo.svg
+├── 🐳 Dockerfile          # Hardened Nginx production runtime container
+├── 📦 compose.yaml        # Multi-port container orchestration
+├── ⚙️ nginx.conf          # Reverse-proxy router with security headers
+├── ▲ vercel.json         # High-performance Vercel Edge configuration
+├── 🌐 netlify.toml        # Netlify static deployment manifest
 ├── 📖 README.md           # Documentation & Leadership Guide
-└── 🚀 out/                # Pre-compiled, production-ready static bundles
-    ├── photos/           # Core Photos & Timeline Web App
-    ├── accounts/         # User Accounts Interface
-    ├── albums/           # Album Management Interface
-    ├── auth/             # Authentication Module
-    └── locker/           # Secure Cloud Storage Locker
+└── 🚀 out/                # Pre-compiled static release artifacts
+    ├── photos/           # Core Photos & Gallery Application
+    ├── accounts/         # Accounts & User Profiles Module
+    ├── albums/           # Album Sharing & Management
+    ├── auth/             # Cryptographic Identity & Verification
+    └── locker/           # Encrypted Vault & Secure Storage
 ```
 
 <br/>
@@ -121,7 +156,11 @@ docker compose down
 
 <div align="center">
 
-### 🛡️ Built for Privacy. Engineered for Speed.
-Crafted with ❤️ by **Akshit Rai Kakkar (CEO)** & **Dipanshu Batra (CTO)**
+### 🛡️ Built for Privacy. Engineered for Scale.
+Crafted with passion by **Akshit Rai Kakkar** *(CEO)* & **Dipanshu Batra** *(CTO)*
+
+<br/>
+
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/dipanshubatra/ente)
 
 </div>
